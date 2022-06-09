@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --header-color: black;
+
+}
+
 html{
-    background-color: #334155;
+    background-color: #fef08a;
 }
 
 .container{
@@ -16,9 +21,9 @@ html{
 .header{
     display: flex;
     flex-direction: column;
-    background-color: #0f172a;
+    background-color: #fde047;
     height: 8em;
-    color: white;
+    color: var(--header-color);
     align-items: center;
 }
 
@@ -42,7 +47,8 @@ html{
     height: 2em;
     font-size: large;
     border-radius: 1em;
-    background-color: #cbd5e1;
+    background-color: #fef08a;
+    color: var(--header-color);
 }
 
 .library{
