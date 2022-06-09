@@ -1,3 +1,3 @@
 # library
 
-Demo https://tristanwongg.github.io/library/
+Live Demo https://tristanwongg.github.io/library/
