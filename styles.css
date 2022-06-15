@@ -48,7 +48,7 @@ html{
 
 .library{
     display: grid;
-    justify-content: center;
+    justify-content: flex-end;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: 2em;
     gap: 2em;
